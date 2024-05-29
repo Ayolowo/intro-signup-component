@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Check email
     if (!validateEmail(emailVal) || emailVal === '') {
-      showError(email, "Looks like this is not an email", true);
+      showError(email, "Looks like this is not an email");
     } else {
       hideError(email);
     }

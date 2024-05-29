@@ -76,6 +76,7 @@ form {
 
 .password-container {
   position: relative;
+  display: block;
 }
 
 .password-container input {
@@ -85,7 +86,7 @@ form {
 
 .password-container i {
   position: absolute;
-  top: 50%;
+  top: 35%;
   right: 10px;
   transform: translateY(-50%);
   cursor: pointer;
@@ -120,8 +121,9 @@ button {
   padding: 1rem 0;
   background-color: var(--green);
   color: white;
-  border: none;
-  border-radius: 1rem;
+  border: 2px solid rgba(193, 191, 191, 0.515);
+  border-style: outset;
+  border-radius: 0.6rem;
   font-family: inherit;
   font-size: 1rem;
   text-transform: uppercase;
